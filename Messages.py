@@ -10,6 +10,10 @@ elif CONFIG == ConfigEnum.LOCAL_TEST:
 else:
     raise NameError("User Should Choose Configuration from config.py")
 
+IMPROT_messages = messages
+IMPROT_NoFormulaMessages = NoFormulaMessages
+NoFormulaMessages = NoFormulaMessages
+messages = messages
 
 def get_messages():
     return messages
